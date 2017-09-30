@@ -23,6 +23,4 @@ class GameData {
     func updateScore(score: Int) -> Void {
         self.currentScore = score
     }
-    
-    
 }
