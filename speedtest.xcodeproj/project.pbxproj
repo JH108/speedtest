@@ -14,6 +14,8 @@
 		888D7EE11F8009D8003F315B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888D7EDF1F8009D8003F315B /* LaunchScreen.storyboard */; };
 		888D7EEC1F8009D8003F315B /* speedtestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888D7EEB1F8009D8003F315B /* speedtestTests.swift */; };
 		888D7EF71F8009D8003F315B /* speedtestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888D7EF61F8009D8003F315B /* speedtestUITests.swift */; };
+		888D7F081F801506003F315B /* GridDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888D7F071F801506003F315B /* GridDataModel.swift */; };
+		888D7F0A1F801566003F315B /* GameDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888D7F091F801566003F315B /* GameDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		888D7EF21F8009D8003F315B /* speedtestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = speedtestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		888D7EF61F8009D8003F315B /* speedtestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speedtestUITests.swift; sourceTree = "<group>"; };
 		888D7EF81F8009D8003F315B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888D7F071F801506003F315B /* GridDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridDataModel.swift; sourceTree = "<group>"; };
+		888D7F091F801566003F315B /* GameDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,9 @@
 		888D7ED51F8009D8003F315B /* speedtest */ = {
 			isa = PBXGroup;
 			children = (
+				888D7F061F801295003F315B /* Model */,
+				888D7F051F80128F003F315B /* Controller */,
+				888D7F041F801288003F315B /* View */,
 				888D7ED61F8009D8003F315B /* AppDelegate.swift */,
 				888D7ED81F8009D8003F315B /* ViewController.swift */,
 				888D7EDA1F8009D8003F315B /* Main.storyboard */,
@@ -123,6 +130,29 @@
 				888D7EF81F8009D8003F315B /* Info.plist */,
 			);
 			path = speedtestUITests;
+			sourceTree = "<group>";
+		};
+		888D7F041F801288003F315B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		888D7F051F80128F003F315B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		888D7F061F801295003F315B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				888D7F071F801506003F315B /* GridDataModel.swift */,
+				888D7F091F801566003F315B /* GameDataModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +290,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				888D7ED91F8009D8003F315B /* ViewController.swift in Sources */,
+				888D7F081F801506003F315B /* GridDataModel.swift in Sources */,
 				888D7ED71F8009D8003F315B /* AppDelegate.swift in Sources */,
+				888D7F0A1F801566003F315B /* GameDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
